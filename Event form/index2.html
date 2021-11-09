@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Event Form </title>
+      <link rel="stylesheet" href="register.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="center">
+         <input type="checkbox" id="show">
+         <label for="show" class="show-btn">Register Event</label>
+         <div class="container">
+            <label for="show" class="close-btn fas fa-times" title="close"></label>
+            <div class="text">
+               Register Event
+            </div>
+
+            <form action="#">
+               <div class="data">
+                  <label>Name</label>
+                  <input class="fname" type="text" name="name" placeholder="Event name">
+               </div>
+
+               <div class="data">
+                <label>Date</label>
+                    <input type="date" id="Date" name="date" placeholder="Date">
+                </div>
+
+                <div class="data">
+                    <label>Time</label>
+                        <input type="time" id="Time" name="time" placeholder="Time">
+               </div>
+                
+               <div class="data">
+                <label>Image</label>
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                </div>
+                 
+               <div class="data">
+                  <label>Description</label>
+                  <input type="text" name="name" placeholder="Description">
+               </div>
+               
+               <div class="btn">
+                  <div class="inner"></div>
+                  <button type="submit">Add Event</button>
+               </div>
+               <!-- <div class="signup-link">
+                  Not a member? <a href="#">Signup now</a>
+               </div> -->
+            </form>
+         </div>
+      </div>
+   </body>
+</html>
